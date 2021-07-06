@@ -21,7 +21,7 @@ bot.on("callback_query", function (query) {
         let gameurl: = "t.me/EARTHsnakeBot", id="+query.id;  // add url here
         bot.answerCallbackQuery({
             callback_query_id: query.id,
-      url:(https://git.heroku.com/earthsnake.git)
+      url:("t.me/EARTHsnakeBot")
     });
   }
 });
